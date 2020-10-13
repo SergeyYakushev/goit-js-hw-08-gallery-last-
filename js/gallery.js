@@ -58,4 +58,5 @@ function closeModalByElementClick(element) {
 }
 function removeClassModal() {
   modalEl.classList.remove('is-open');
+  modalImgEl.src = '';
 }
